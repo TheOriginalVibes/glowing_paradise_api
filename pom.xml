@@ -6,7 +6,15 @@
 
     <groupId>at.vibes</groupId>
     <artifactId>GlowingParadiseAPI</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub TheOriginalVibes Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/TheOriginalVibes/GlowingParadiseAPI</url>
+        </repository>
+    </distributionManagement>
 
     <repositories>
         <repository>
